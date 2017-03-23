@@ -67,6 +67,7 @@ namespace Handiness.Winform.Control
             this._waitIndicator.Visible = false;
             this._waitIndicator.IsFollowParentBackColor = false;
             this._waitIndicator.CanMousePenetrable = true;
+            this._waitIndicator.RollPartWidthPercent = 20;
             this.Controls.Add(this._waitIndicator);
             
         }
@@ -161,6 +162,5 @@ namespace Handiness.Winform.Control
                 base.OnMouseUp(mevent);
 
         }
-
     }
 }

@@ -94,9 +94,10 @@ namespace Handiness.Winform.Control
                 brush.Dispose();
             }
         }
+
         protected override void WndProc(ref Message m)
         {
-            if (this.CanMousePenetrable)
+            if (this.CanMousePenetrable&&!this.DesignMode)
             {
                 switch (m.Msg)
                 {

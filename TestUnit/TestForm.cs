@@ -71,6 +71,16 @@ namespace TestUnit
         {
             MessageBox.Show("double ");
         }
+
+        private void TestForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void scutcheon3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     public interface ITest<out T> where T : class
     {
